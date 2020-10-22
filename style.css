@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --size: 70px;
+    --size2: 40px;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    margin: 20px;
+}
+.head{
+    margin-bottom: 20px;
+}
+table , table tr td{
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+}
+table tr td{
+    height: var(--size);
+    width: var(--size);
+    user-select: none;
+    margin: 10px;
+}
+img{
+    height: var(--size2);
+    width: var(--size2);
+}
+.display{
+    text-align: right;
+    padding: 10px 20px;
+}
